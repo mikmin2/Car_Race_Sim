@@ -252,6 +252,7 @@ public class App extends Application {
             for (Label label : labels) {
                 label.setLayoutY(0);
                 label.setLayoutX(0);
+                label.setVisible(true);
             }
         });
 
